@@ -13,3 +13,5 @@ function printFirstItemThenFirstHalfThenSayHi100Times(items) {
         console.log('hi');
     }
 }
+
+//O(n) 상수 drop

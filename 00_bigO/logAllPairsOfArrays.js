@@ -1,4 +1,5 @@
 //Log all pairs of array
+//O(n^2)
 
 const boxes = ['a', 'b', 'c', 'd', 'e'];
 function logAllPairsOfArray(array) {
