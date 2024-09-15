@@ -9,7 +9,9 @@
 //It should return undefined
 
 
-function firstRecurringCharacter(input) {}
+function firstRecurringCharacter(input) {
+    
+}
 
 
 //Bonus... What if we had this:

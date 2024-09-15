@@ -2,7 +2,7 @@ class HashTable {
     constructor(size) {
         this.data = new Array(size);
     }
-
+  //해시 테이블
     // O(1)
     _hash(key) {
         let hash = 0;
@@ -44,10 +44,11 @@ class HashTable {
 
     keys() {
         const keysArray = [];
+        //flat: 
         const flatData = this.data.flat();
 
         flatData.forEach(entry => keysArray.push(entry[0]));
-
+        flatData.forEach(entry => console.log((entry)));
         return keysArray;
     }
 }
